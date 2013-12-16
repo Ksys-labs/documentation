@@ -1,0 +1,9 @@
+Install the gimli gem. It may need additional dependencies, such as
+libxml2-dev, libxslt-dev
+
+> gem install gimli
+
+To enable syntax highlighting for shell scripts, copy the bash.rb to the place where the coderay gem is installed. By default on a linux system it would end up somewhere in /var/lib/gems/
+
+> sudo cp bash.rb /var/lib/gems/1.9.1/gems/coderay-1.0.9/lib/coderay/scanners
+
